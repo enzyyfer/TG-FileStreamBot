@@ -47,9 +47,13 @@
           "required": false
       }
   },
-  "buildpacks": [{
-      "url": "heroku/python"
-    }],
+"buildpacks": [
+  {
+    "url": "heroku/python",
+    "runtime": "python-3.10"
+  }
+],
+
   "formation": {
       "web": {
           "quantity": 1,
