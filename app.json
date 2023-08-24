@@ -6,7 +6,7 @@
       "web",
       "pyrogram",
       "aiohttp",
-      "python",
+      "python-3.10.12",
       "plugin",
       "modular",
       "media"
