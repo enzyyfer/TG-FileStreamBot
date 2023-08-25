@@ -11,9 +11,9 @@
       "modular",
       "media"
     ],
-  "repository": "https://github.com/enzyyfer/TG-FileStreamBot/tree/main/WebStreamer",
+  "repository": "https://github.com/enzyyfer/TG-FileStreamBot",
   "success_url": "/",
-  "website": "https://github.com/enzyyfer/TG-FileStreamBot/tree/main/WebStreamer",
+  "website": "https://github.com/enzyyfer/TG-FileStreamBot",
   "env": {
       "ENV": {
           "description": "Set this to True if you don't want to crash the bot",
@@ -47,11 +47,9 @@
           "required": false
       }
   },
-"buildpacks": [
-  {
-    "url": "heroku/python",
-    "runtime": "python-3.10"
-  }
+  "buildpacks": [{
+      "url": "heroku/python"
+    }],
 ],
 
   "formation": {
